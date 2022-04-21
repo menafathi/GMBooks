@@ -1,0 +1,200 @@
+CRITICAL - 2022-04-14 08:32:13 --> Class 'Home:page404' not found
+#0 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(849): CodeIgniter\CodeIgniter->createController()
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-04-14 08:32:23 --> Class 'Home:page404' not found
+#0 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(849): CodeIgniter\CodeIgniter->createController()
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-14 08:32:46 --> Class 'Home:page404' not found
+#0 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(849): CodeIgniter\CodeIgniter->createController()
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-14 08:32:50 --> Class 'Home:page404' not found
+#0 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(849): CodeIgniter\CodeIgniter->createController()
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-14 08:33:10 --> Class 'Home:page404' not found
+#0 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(849): CodeIgniter\CodeIgniter->createController()
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-14 08:41:17 --> Class 'Home' not found
+#0 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(849): CodeIgniter\CodeIgniter->createController()
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-14 12:41:43 --> Call to undefined method stdClass::getResult()
+#0 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(21): App\Models\DbOk->cheack_row('1')
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->departbook()
+#2 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 12:41:52 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(21): App\Models\DbOk->cheack_row('111')
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->departbook()
+#2 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 12:41:54 --> Call to undefined method stdClass::getResult()
+#0 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(21): App\Models\DbOk->cheack_row('3')
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->departbook()
+#2 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 12:42:21 --> Call to undefined method stdClass::getResult()
+#0 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(21): App\Models\DbOk->cheack_row('3')
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->departbook()
+#2 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 12:43:01 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(21): App\Models\DbOk->cheack_row('111')
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->departbook()
+#2 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 12:43:03 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(21): App\Models\DbOk->cheack_row('111')
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->departbook()
+#2 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-14 15:42:14 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-14 15:42:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\GMbooks\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\GMbooks\system\Database\BaseBuilder.php(1576): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\GMbooks\app\Models\DbOk.php(11): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(21): App\Models\DbOk->cheack_row(NULL)
+#4 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->departbook()
+#5 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-04-14 15:55:51 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-14 15:55:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\GMbooks\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\GMbooks\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\GMbooks\app\Models\DbOk.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(31): App\Models\DbOk->get_department()
+#4 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->department()
+#5 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-04-14 15:56:36 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-14 15:56:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\GMbooks\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\GMbooks\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\GMbooks\app\Models\DbOk.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(31): App\Models\DbOk->get_department()
+#4 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->department()
+#5 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-14 15:56:53 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(21): App\Models\DbOk->cheack_row(NULL)
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->departbook()
+#2 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 16:01:52 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(21): App\Models\DbOk->cheack_row(NULL)
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->departbook()
+#2 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 16:02:12 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(21): App\Models\DbOk->cheack_row(NULL)
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->departbook()
+#2 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 16:02:15 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(21): App\Models\DbOk->cheack_row(NULL)
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->departbook()
+#2 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 16:02:35 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(21): App\Models\DbOk->cheack_row(NULL)
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->departbook()
+#2 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 16:02:36 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(21): App\Models\DbOk->cheack_row(NULL)
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->departbook()
+#2 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 16:03:05 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(21): App\Models\DbOk->cheack_row(NULL)
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->departbook()
+#2 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 16:04:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(21): App\Models\DbOk->cheack_row(NULL)
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->departbook()
+#2 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 16:04:17 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\GMbooks\app\Controllers\Home.php(21): App\Models\DbOk->cheack_row(NULL)
+#1 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(824): App\Controllers\Home->departbook()
+#2 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GMbooks\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GMbooks\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\GMbooks\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
